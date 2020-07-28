@@ -1,0 +1,40 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="SitePaginasAlternas.master.vb" Inherits="CITAS.SitePaginasAlternas" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+        <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="Archivos_Plantilla/plugins/fontawesome-free/css/all.min.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="Archivos_Plantilla/dist/css/adminlte.min.css">
+    <!-- Google Font: Source Sans Pro -->
+    <link href="Plugin/SweetAlert/sweetalert.css" rel="stylesheet" />
+    <link href="Plugin/SpinKit-master/spinkit.css" rel="stylesheet" />
+    <link href="Archivos_Plantilla/plugins/toastr/toastr.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+
+     <!-- jQuery -->
+    <script src="Archivos_Plantilla/plugins/jquery/jquery.min.js"></script>
+    <!-- Bootstrap 4 -->
+    <script src="Archivos_Plantilla/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- AdminLTE App -->
+    <script src="Archivos_Plantilla/dist/js/adminlte.min.js"></script>
+    <script src="Archivo_JS/Script_General.js"></script>
+    <script src="Plugin/SweetAlert/sweetalert.min.js"></script>
+    <script src="Archivos_Plantilla/plugins/toastr/toastr.min.js"></script>
+</body>
+</html>
